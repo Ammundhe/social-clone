@@ -1,0 +1,29 @@
+.Feed-bar{
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.Feed-bar::-webkit-scrollbar{
+    display: none;
+}
+
+.Feed-bar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.home-bar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--twitter-background);
+    padding: 15px 20px;
+}
+
+.home-bar >h2{
+    font-weight: 800;
+    font-size: 20px;
+}

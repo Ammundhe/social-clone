@@ -13,7 +13,7 @@ const Widget=()=>{
             <div className="widgets-container">
                 <h2>What's happening?</h2>
                 <TwitterTweetEmbed tweetId={"858551177860055040"}/>
-                <TwitterTimelineEmbed sourceType="profile" screenName="cleaverqazi" options={{height:400}}/>
+                <TwitterTimelineEmbed sourceType="profile" screenName="am_mundhe" options={{height:400}}/>
                 <TwitterShareButton url={"https://facebook.com/cleverprogrammer"} options={{text:"hello world i am here", vai:"cleaverqazi"}}/>
                 
             </div>
